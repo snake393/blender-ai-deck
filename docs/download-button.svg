@@ -1,0 +1,26 @@
+<svg width="140" height="50" viewBox="0 0 140 50" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Download blender-ai-deck">
+  <defs>
+    <linearGradient id="btn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FF9E3D"/>
+      <stop offset="1" stop-color="#E87D0D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- rounded plate covers the whole canvas; area outside the rounding stays transparent -->
+  <rect x="0" y="0" width="140" height="50" rx="10" fill="url(#btn)"/>
+
+  <!-- label -->
+  <text x="12" y="31" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">Download</text>
+
+  <!-- icon block: 36x36, 7px from the right edge -->
+  <rect x="97" y="7" width="36" height="36" rx="8" fill="#132038"/>
+  <g stroke="#FFFFFF" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- arrow down -->
+    <path d="M115 15 v12"/>
+    <path d="M110 22 l5 5 5 -5"/>
+    <!-- tray -->
+    <path d="M106 33 h18"/>
+    <path d="M106 33 v-5"/>
+    <path d="M124 33 v-5"/>
+  </g>
+</svg>
