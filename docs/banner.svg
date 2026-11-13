@@ -1,0 +1,58 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="blender-ai-deck — Blender addon, AI assistant, MCP server">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#14243F"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#E87D0D"/>
+      <stop offset="1" stop-color="#FF9E3D"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2FB9CE"/>
+      <stop offset="1" stop-color="#35D0E0"/>
+    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#1B2C4A" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+
+  <!-- left: title block -->
+  <rect x="70" y="64" width="92" height="7" rx="3.5" fill="url(#accent)"/>
+  <text x="70" y="152" font-family="Segoe UI, Arial, sans-serif" font-size="68" font-weight="700" fill="#FFFFFF">blender-ai-deck</text>
+  <text x="70" y="198" font-family="Consolas, 'Courier New', monospace" font-size="21" font-weight="600" letter-spacing="3" fill="#FF9E3D">BLENDER ADDON · AI ASSISTANT · MCP SERVER</text>
+  <text x="70" y="242" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#9FB0CC">Drive your Blender scenes from one AI chat deck.</text>
+
+  <!-- right: wireframe cube (scene) -->
+  <g stroke-linejoin="round">
+    <polygon points="950,55 1045,105 950,155 855,105" fill="#F7A64A" fill-opacity="0.22" stroke="#FF9E3D" stroke-width="2"/>
+    <polygon points="855,105 855,205 950,255 950,155" fill="#E87D0D" fill-opacity="0.16" stroke="#FF9E3D" stroke-width="2"/>
+    <polygon points="1045,105 1045,205 950,255 950,155" fill="#E87D0D" fill-opacity="0.32" stroke="#FF9E3D" stroke-width="2"/>
+  </g>
+
+  <!-- MCP link: cube to chat bubble -->
+  <line x1="1045" y1="105" x2="1108" y2="76" stroke="#35D0E0" stroke-width="1.6" stroke-dasharray="5 5" opacity="0.75"/>
+  <circle cx="1076" cy="91" r="4" fill="#35D0E0"/>
+  <line x1="1045" y1="205" x2="1104" y2="232" stroke="#35D0E0" stroke-width="1.6" stroke-dasharray="5 5" opacity="0.75"/>
+  <circle cx="1074" cy="218" r="4" fill="#35D0E0"/>
+
+  <!-- chat bubble (AI) -->
+  <g>
+    <rect x="1082" y="34" width="86" height="62" rx="14" fill="#14243F" stroke="#35D0E0" stroke-width="2"/>
+    <polygon points="1102,96 1118,96 1104,110" fill="#14243F" stroke="#35D0E0" stroke-width="2" stroke-linejoin="round"/>
+    <rect x="1098" y="50" width="54" height="6" rx="3" fill="url(#teal)"/>
+    <rect x="1098" y="64" width="40" height="6" rx="3" fill="#35D0E0" opacity="0.65"/>
+    <rect x="1098" y="78" width="26" height="6" rx="3" fill="#35D0E0" opacity="0.4"/>
+  </g>
+
+  <!-- tool nodes near cube base -->
+  <circle cx="855" cy="205" r="5" fill="none" stroke="#FF9E3D" stroke-width="2"/>
+  <circle cx="950" cy="255" r="5" fill="#FF9E3D"/>
+  <circle cx="1045" cy="205" r="5" fill="none" stroke="#FF9E3D" stroke-width="2"/>
+
+  <!-- bottom palette strip -->
+  <rect x="0" y="292" width="1200" height="8" fill="url(#accent)"/>
+</svg>
